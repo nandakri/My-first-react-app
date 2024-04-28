@@ -1,0 +1,100 @@
+.main-container1 {
+    width: 100%;
+   
+}
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    padding: 20px;
+    padding-bottom: 13px;
+    background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    width: 98%;
+   
+}
+.logo1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.buttons1 {
+    display: flex;
+}
+.login-btn1,
+.signup-btn1 {
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-btn1:hover,
+.signup-btn1:hover {
+    background-color: green;
+    color: white;    
+}
+
+.content1 {
+    height: 690px;
+    width: 100%;
+    background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\narasaraopeta-engineering-college-guntur-campus-safeimagekit.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    position: fixed;
+    top: 10%;
+    align-items: center;
+    text-align: center;
+}
+
+#m1 {
+    color: black;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    padding-top: 13px;
+    position: relative;
+    left: 35%;
+    top: 5%;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+p {
+    color: #666;
+}
+.mainlogo{
+    height: 350px;
+    width: 350px;
+    background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\unnamed.jpg");
+    background-repeat: no-repeat;
+    background-size: 390px;
+    background-position: center;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    border-radius: 50%;    
+}
+
+@keyframes mar {
+    50% { color:red }
+    100% { color: blue; }
+}
+.mar{
+    animation: mar 2s infinite;
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+    margin-right: 10%;
+    margin-left: 26%;
+}

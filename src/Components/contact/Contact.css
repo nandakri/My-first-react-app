@@ -1,0 +1,11 @@
+.con3 {
+  background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\contactus.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 95%;
+  width: 100%;
+  position: fixed;
+  top: 8%;
+
+}

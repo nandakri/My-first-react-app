@@ -1,0 +1,45 @@
+.aggg{
+  background-color: aliceblue;
+  height: 95%;
+  width: 100%;
+  position: absolute;
+  top: 10%;
+}
+
+.shirts-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.shirt-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.shirt {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.shirt img {
+  max-width: 100%;
+  height: auto;
+}
+
+.shirt-title {
+  font-weight: bold;
+}
+
+.shirt-price {
+  margin-top: 5px;
+}
+
+.shirt-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,71 @@
+
+.hello {
+    background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\sp.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    top: 5%;
+}
+
+.hd {
+    position: fixed;
+    top: 5%;
+    align-items: center;
+    width: 100%;
+    z-index: 9999;
+}
+
+h4 {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(7, 26, 119);
+    text-shadow: 2px 2px 8px #000000;
+}
+
+#abp {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color:aliceblue;
+    font-weight: 100;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#follow {
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+#follow a:hover {
+    color: skyblue;
+    background-color: black;
+    padding: 5px;
+    border-radius: 40%;
+}
+
+h5 {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+#abp {
+    padding-left: 30px;
+}
+
+#l1 {
+    color: black;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}

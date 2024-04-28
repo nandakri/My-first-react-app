@@ -1,0 +1,100 @@
+/* Login.css */
+.bnk {
+  padding-top: 80px;
+}
+
+.box {
+  padding: 20px;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+  text-shadow: 0 0 20px black;
+  font-size: 32px;
+  
+  width: 23%;
+  position: relative;
+  left: 38%;
+}
+
+form {
+  max-width: 300px;
+  padding: 20px;
+  background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\he.webp");
+  z-index: 9999;
+
+}
+
+label {
+  padding-top: 5%;
+  display: block;
+  margin-bottom: 8px;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: green;
+
+}
+
+#btn1 {
+  position: absolute;
+  left: 47%;
+}
+
+#btn2 {
+  position: absolute;
+  left: 710px;
+}
+
+#p1 {
+  color: #333;
+  text-align: center;
+}
+
+.LoginForm-container {
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  width: 100%;
+  
+}
+#p1{
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: black;
+  font-weight: bold;
+}
+#b1{
+  letter-spacing: 0.9px;
+  margin-left: 102px;
+}

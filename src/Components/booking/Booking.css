@@ -1,0 +1,102 @@
+.cards1{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    gap: 60px;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.card1{
+    background-color: rgb(46, 40, 40);
+    height: 150px;
+    width:150px;
+    display: grid;
+    place-items:center;
+    margin-left: 80px;
+    box-shadow: 0 0 10px 5px blue;
+}
+.card1 p{
+    
+    border: solid;
+    border-width: 3px;
+    border-color: yellow;
+    background-color: black;
+    border-radius: 5px;
+    font-weight: 40px;
+    padding: 2px;
+    
+}
+.card1 p a{
+    text-decoration: none;
+    font-size: 22px;
+    color:white;
+}
+#c1{
+    background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\shirts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#c2{
+    background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\pants.webp");
+    background-repeat: no-repeat;
+    background-size:150%;
+    background-position: center;
+}
+#c3{
+    background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\groccess.png");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#c4{
+    background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\electr.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#c5{
+    background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\gaming.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#c6{
+    background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\shoes.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#c7{
+    background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\comic.jpeg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#c8{
+    background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\gym.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cards1 .card1 p a:hover{
+    color: white;
+}
+.cards1 .card1 p:hover{
+    background-color: black;
+    border-color: blue;
+}.card1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.con1 {
+    background-image: url("C:\Users\nanda\OneDrive\Desktop\react\nanduportfolio\src\images\2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+  }
